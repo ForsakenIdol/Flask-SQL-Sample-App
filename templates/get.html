@@ -1,0 +1,11 @@
+<head>
+    <title>ADOT Get</title>
+</head>
+<body>
+    <h1>List of Entries</h1>
+    <ul>
+        {% for item in db_entries %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</body>

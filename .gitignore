@@ -1,0 +1,6 @@
+# Folders
+.venv/
+
+# File Extensions
+*.env
+*.log
